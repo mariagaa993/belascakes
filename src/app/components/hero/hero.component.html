@@ -1,9 +1,37 @@
-<section class="container-fluid">
-    <div class="row">
-        <div class="col-md-6 order-2 order-md-1">
-            <h1 class="text-center text-uppercase">
-                We make de best cake for you!
+<section class="container-fluid pt-4 px-3 pb-5 px-lg-5">
+    <div class="row text-center text-md-start align-items-center pb-lg-5">
+        <div class="col-12 col-md-4 px-lg-5">
+            <h1 class="text-uppercase pb-1">
+                We make the best cakes for you!
             </h1>
+            <p class="d-none d-sm-block pt-2 pb-3 pe-lg-5">Order a variety of cakes for every taste from us!</p>
+            <button class="d-none d-sm-block btn">Contact us</button>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+            <img [src]="heroCake" alt="Cake" class="img-custom-width">
+        </div>
+        <div class="col-12 col-md-4 d-md-none p-4 px-5">
+            <p class="px-2">Order a variety of cakes for every taste from us!</p>
+            <button class="btn">Contact us</button>
+        </div>
+        <div class="col-12 col-md-4 d-none d-sm-block px-lg-5">
+            <span class="fake-btn">Bela's Cakes</span>
+            <p class="pt-4">From classic flavors to unique creations, our cakes are 
+                designed to delight. Place your order today and enjoy a slice of happiness.</p>
+            <div class="row">
+                <div class="col-6">
+                    <ul>
+                        <li>Cakes</li>
+                        <li>Cheesecakes</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>Cupcakes</li>
+                        <li>And more...</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>

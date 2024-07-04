@@ -18,8 +18,8 @@
                 </ul>
             </div>
             <div class="topbar-text text-nowrap d-none d-md-inline-block">
-                <span class="text-muted me-1">Phone:</span><a class="topbar-link me-5" href="tel:">000 00 000</a>
-                <span class="text-muted me-1">Address:</span><a class="topbar-link" href="">Address</a>
+                <a class="topbar-link me-5" href="tel:"><fa-icon [icon]="faPhone"></fa-icon> (317) 123-4567</a>
+                <a class="topbar-link" href=""><fa-icon [icon]="faMapMarkerAlt"></fa-icon> Fishers, IN</a>
             </div>
             <div class="ms-3 text-nowrap">
                 <div class="topbar-text dropdown disable-autohide">
@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid p-0">
             <a class="navbar-brand" href="#">
-                <img [src]="logo" width="100" height="44" alt="Logo">
+                <!-- <img [src]="whiteLogo" width="100" height="44" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
                 aria-controls="offcanvasTop" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,9 +52,9 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <div class="d-flex">
+                <!--<div class="d-flex">
                     <button class="btn btn-warning" type="submit">Contact</button>
-                </div>
+                </div>-->
             </div>
         </div>
     </nav>
