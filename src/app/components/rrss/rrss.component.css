@@ -1,0 +1,21 @@
+.instagram-images {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 2px;
+    justify-content: center; 
+}
+
+.instagram-images img {
+    border-radius: 5px;
+    flex: 1; 
+    height: 90px;
+    max-width: 90%;
+    object-fit: cover;
+}
+
+.btn {
+    border: 2px solid #f7aec2;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 50px
+}

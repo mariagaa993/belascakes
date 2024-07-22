@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './rrss.component.css'
 })
 export class RrssComponent {
-
+  imgInstagram: string = '../../../assets/images/test.jpg';
 }
