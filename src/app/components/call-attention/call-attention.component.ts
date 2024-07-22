@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './call-attention.component.css'
 })
 export class CallAttentionComponent {
-
+  cake: string = '../../../assets/images/cake0.png';
 }

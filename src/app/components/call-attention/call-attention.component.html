@@ -1,12 +1,15 @@
-<section class="container-fluid text-center" style="background-color: pink">
-    <div class="row">
-        <div class="col-sm-12 col-lg-6">
-            <img src="" alt="imagen">
+<section class="container-fluid text-center pt-9 pb-8 px-md-4">
+    <div class="row pb-4">
+        <div class="col-sm-12 col-md-6 d-md-none img-container position-relative">
+            <img [src]="cake" alt="imagen" class="img-sm position-absolute">
         </div>
-        <div class="col-sm-12 col-lg-6">
-            <h2>Do you have any question?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, non.</p>
-            <button class="btn btn-warning">Contact us</button>
+        <div class="col-sm-12 col-md-6 col-lg-8 text-white">
+            <h2 class="pb-3">Do you have any question?</h2>
+            <p class="pb-3">Please give us a call and we will be <br> happy to help you</p>
+            <button class="btn">Contact us</button>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 d-none d-md-block img-container position-relative">
+            <img [src]="cake" alt="imagen" class="img-sm position-absolute">
         </div>
     </div>
 </section>
