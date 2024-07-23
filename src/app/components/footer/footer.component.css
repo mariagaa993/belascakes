@@ -1,0 +1,22 @@
+section {
+    background-color: #f7aec2;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding-bottom: 8px;
+}
+
+footer p {
+    font-size: 12px;
+}
