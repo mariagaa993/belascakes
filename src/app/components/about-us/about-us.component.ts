@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './about-us.component.css'
 })
 export class AboutUsComponent {
-  aboutus: string = '../../../assets/images/aboutus.jpg';
+  aboutus: string = '../../../assets/images/test.jpg';
 }

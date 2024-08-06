@@ -13,7 +13,8 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  logo: string = '../../../assets/images/logo.png';
+  logo: string = '../../../assets/images/logo6.png';
+  logo2: string = '../../../assets/images/black-logo.png';
   faPhone = faPhone;
   faMapMarkerAlt = faMapMarkerAlt;
   faInstagram = faInstagram;

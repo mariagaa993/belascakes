@@ -1,3 +1,12 @@
 section {
-    background-color: #a1cbdd;
+    background-color: #ffe4b3;
+}
+
+.about-us-img {
+    background-image: url('../../../assets/images/test.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: auto; 
+    min-height: 250px;
 }

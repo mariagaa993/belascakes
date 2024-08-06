@@ -12,6 +12,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  logo: string = '../../../assets/images/logo6.png';
   faPhone = faPhone;
   faMapMarkerAlt = faMapMarkerAlt;
   faInstagram = faInstagram;
