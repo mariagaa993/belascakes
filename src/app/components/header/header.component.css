@@ -77,3 +77,10 @@ a {
 .navbar-collapse .navbar-nav::after {
     margin-right: 0;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-collapse .navbar-nav::before,
+    .navbar-collapse .navbar-nav::after {
+        width: 100px;
+    }
+}

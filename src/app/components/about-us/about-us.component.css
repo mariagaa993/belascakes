@@ -10,3 +10,9 @@ section {
     height: auto; 
     min-height: 250px;
 }
+
+@media (min-width: 768px) {
+    .pb-4 {
+        padding-bottom: 92px !important;
+    }
+}

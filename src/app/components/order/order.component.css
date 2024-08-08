@@ -6,21 +6,20 @@ section {
     font-weight: 600;
 }
 
-.blue {
-    color: #5997ac;
+.lightgreen {
+    color: #88d8b0;
 }
 
-.lightblue {
-    color: #a1cbdd;
-}
-
-.pink {
-    color: #af5166;
+.lightorange {
+    color: #ffd17d;
 }
 
 .lightpink {
     color: #f7aec2;
-    
+}
+
+.lightpurple {
+    color: #6b5b95;
 }
 
 .step::after {
@@ -62,6 +61,18 @@ section {
     height: 2px;
     position: absolute;
     top: 220%;
-    width: calc(100vw * 0.23); 
+    width: calc(100vw * 0.218); 
     z-index: -1;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        padding-bottom: 92px;
+    }
+}
+
+@media (min-width: 992px) {
+    section {
+        padding-bottom: 120px;
+    }
 }

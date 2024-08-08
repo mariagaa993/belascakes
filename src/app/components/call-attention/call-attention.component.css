@@ -2,6 +2,20 @@ section {
     background-color: #88d8b0;
 }
 
+.btn {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 50px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #6b5b95;
+    color: #6b5b95;
+}
+
 .img-container {
     height: 230px;
 }
@@ -10,15 +24,9 @@ section {
     left: 50%;
     top: 4%;
     transform: translate(-50%, -50%);
+    width: 68%;
 }
 
-
-
-@media (max-width: 413px) {
-    .img-sm {
-        width: 65%;
-    }
-}
 
 @media (min-width: 414px) and (max-width: 767px) {
     .img-sm {
@@ -32,6 +40,14 @@ section {
     }
     .img-sm {
         top: 48%;
+        width: auto;
+        left: 35%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img-sm {
+        left: 20% !important;
     }
 }
 
@@ -39,11 +55,4 @@ section {
     .img-sm {
         left: 0;
     }
-}
-
-.btn {
-    background-color: #ffffff;
-    border-radius: 30px;
-    font-weight: 600;
-    padding: 10px 50px
 }
